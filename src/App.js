@@ -1,14 +1,17 @@
 import React from "react";
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
+// import About from "./components/About";
+
+import LandingPage from "./components/LandingPage";
+
 
 function App() {
   return (
+ 
     <div className="App">
-      <Navbar />
-      <Header />
+        <LandingPage />
+        
     </div>
-  );
+  )
 }
 
 export default App;

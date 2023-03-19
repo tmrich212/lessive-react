@@ -1,11 +1,113 @@
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Sono:wght@300;400&display=swap');
 
 * {
-  background-color: rgb(174, 217, 255);
+  /* background-color: rgb(174, 217, 255); */
+  /* color: white; */
+  /* margin: 0 auto; */
+  /* padding: 0; */
+  margin: 0;
+  box-sizing: border-box;
   color: white;
 }
 
-body {
+.landingpage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: 0.5s;
+}
+
+.bgvideo {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  object-fit: cover;
+  background-color: black;
+}
+
+.bg-overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 4rem;
+  border-bottom: solid white 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo h1 {
+  padding-left: 30px;
+  text-transform: uppercase;
+  font-family: 'Prompt', sans-serif;
+  letter-spacing: 2px;
+  text-decoration: wavy;
+}
+
+.menu a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  padding-right: 30px;
+  text-transform: uppercase;
+  font-family: 'Sono';
+  font-size: 1.3rem;
+}
+
+.menu a:hover {
+  color: rgb(221, 188, 145);
+}
+
+.home {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  z-index: 2;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center; 
+  font-family: 'Sono';
+  text-align: right;
+  margin-right: 35px;
+}
+
+.home h1 {
+  font-size: 3rem;
+  justify-self: flex-end;
+  text-align: right;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.home p {
+  justify-self: baseline;
+  font-size: 2.5rem;
+  color: white;
+  text-align: right;
+}
+
+.arrow {
+  height: 60px;
+}
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -17,15 +119,20 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+.navbar {
+  border-bottom: 1px solid whitesmoke; 
+  /* display: flex;
+  justify-content: space-between; */
 }
 
-nav {
+/* .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin: 5px 25px;
-  height: 3rem;
 }
 
 .logo h1 {
@@ -37,8 +144,8 @@ nav {
 
 ul {
   display: flex;
-  justify-content: center;
-  align-items: baseline;
+  justify-content: space-between; 
+  align-items: center;
 }
 
 li {
@@ -52,4 +159,44 @@ a {
   font-family: 'Sono', sans-serif;
   color: black;
   padding-right: 20px;
+}
+
+a:hover {
+  color: whitesmoke;
+} */
+
+/*  was main tag! */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 90vh; */
+  background-color: aliceblue;
+}
+
+video {
+  width: 50%;
+}
+
+.mission {
+  background-color: aliceblue;
+}
+
+.mission h1, h2{
+ margin-right: 3rem;
+ text-align: center;
+}
+
+
+.about {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.about-info h1, p{
+  color: black;
+  max-width: 80vw;
+  /* background-color: aliceblue; */
+  text-align: center;
 }

@@ -1,17 +1,30 @@
 import React from "react";
-import video from '../videos/header.mp4'
+import background from '../pexels-pixabay-271711.jpg';
+// import video from '../videos/header.mp4' 
 
 const Header = () => {
+    const styles = {
+        height: '100vh',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        overflow: 'hidden',
+        color: 'white'
+    }
+
     return (
-        <main className="header">
-            <div className="video">
-                <video src={video} autoPlay muted loop width='70%' typeof="video/mp4"></video>
+
+            <div className="header" style={styles}>
+                <div className="misson" style={{ 
+                    background: 'rgba(0,0,0,0.5)',
+                    borderRadius: 8,
+                    padding: 20,
+                    }}>
+                    <h2 style={{ fontSize: 50}}>We're Like Uber</h2>
+                    <p style={{ fontSize: '3rem', color: 'white'}}>but for laundry</p>
+                </div>
             </div>
-            <div className="misson">
-                <h2>We're Like Uber</h2>
-                <h3>but for laundry</h3>
-            </div>
-        </main>
+        // </div>
       );
 }
  
