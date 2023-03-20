@@ -8,6 +8,7 @@
   margin: 0;
   box-sizing: border-box;
   color: white;
+  scroll-behavior: smooth;
 }
 
 .landingpage {
@@ -40,6 +41,8 @@
   z-index: 0;
 }
 
+
+/* *************** Navbar styles *************** */
 .navbar {
   width: 100%;
   height: 4rem;
@@ -66,6 +69,7 @@
   list-style: none;
   text-decoration: none;
   padding-right: 30px;
+  padding-left: 40px;
   text-transform: uppercase;
   font-family: 'Sono';
   font-size: 1.3rem;
@@ -107,6 +111,37 @@
   height: 60px;
 }
 
+/* ********** About Styles ************ */
+.about {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(197, 201, 224);
+  background-color: rgb(197, 211, 224);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-info {
+  height: 60%;
+  width: 70%;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Sono';
+}
+
+.about-info h1, p {
+  color: black;
+  width: 70%;
+  padding: 10px;
+  font-size: 1.3rem;
+}
+
 /* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -121,11 +156,11 @@ code {
     monospace;
 } */
 
-.navbar {
-  border-bottom: 1px solid whitesmoke; 
+/* .navbar {
+  border-bottom: 1px solid whitesmoke;  */
   /* display: flex;
   justify-content: space-between; */
-}
+/* } */
 
 /* .nav {
   display: flex;
@@ -188,7 +223,7 @@ video {
 }
 
 
-.about {
+/* .about {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -198,5 +233,5 @@ video {
   color: black;
   max-width: 80vw;
   /* background-color: aliceblue; */
-  text-align: center;
-}
+  /* text-align: center; */
+/* }  */

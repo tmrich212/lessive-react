@@ -1,5 +1,5 @@
 import React from "react";
-// import About from "./components/About";
+import About from "./components/About";
 
 import LandingPage from "./components/LandingPage";
 
@@ -9,7 +9,7 @@ function App() {
  
     <div className="App">
         <LandingPage />
-        
+        <About />
     </div>
   )
 }
