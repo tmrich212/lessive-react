@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Sono:wght@300;400&display=swap');
 
 * {
-  /* background-color: rgb(174, 217, 255); */
-  /* color: white; */
-  /* margin: 0 auto; */
-  /* padding: 0; */
   margin: 0;
   box-sizing: border-box;
   color: white;
@@ -51,16 +47,13 @@
   top: 0;
   left: 0;
   padding-top: 0;
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
   z-index: 1;
 }
 
 .logo h1 {
   padding-left: 30px;
   text-transform: uppercase;
-  font-family: 'Prompt', sans-serif;
+  font-family: 'Poiret One', sans-serif;
   letter-spacing: 2px;
   text-decoration: wavy;
 }
@@ -88,24 +81,24 @@
   flex-direction: column;
   align-items: flex-end;
   justify-content: center; 
-  font-family: 'Prompt';
+  /* font-family: 'Prompt'; */
+  font-family: 'Poiret One';
   margin-right: 8rem;
 }
 
 .home h1 {
   font-size: 3rem;
-  /* justify-self: flex-end;
-  align-items: baseline; */
   text-align: right;
   text-transform: uppercase;
+  margin: 0;
   /* position: relative; */
 }
 
 .home p {
-  /* justify-self: baseline; */
   font-size: 2.5rem;
   color: white;
   text-align: right;
+  margin: 0;
 }
 
 .arrow {
@@ -119,7 +112,7 @@ button {
 
 /* ********** About Styles ************ */
 .about {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   padding-inline: 1rem;
   background-color: rgb(197, 201, 224);
@@ -127,6 +120,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 
 .about-info {
@@ -139,7 +133,9 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: 'Sono';
+  font-family: 'Anek Latin';
+  font-weight: 400;
+  line-height: 2rem;
   text-align: center;
   padding: 1rem;
 }
@@ -148,105 +144,32 @@ button {
   color: black;
   /* width: 70%; */
   padding: 20px;
+  /* font-family: 'Poiret One'; */
   /* font-size: 2.3vw; */
   justify-items: stretch;
 }
 
+.about-info h1 {
+  font-weight: 700;
+  color: rgb(68, 164, 196);
+  /* font-family: 'Poiret '; */
+}
+
+.about-info p {
+  font-size: 2.3vw;
+}
+
 .about-info span {
-  color: black;
+  color: rgb(61, 125, 147);
+  color: rgb(68, 164, 196);
+
   font-style: italic;
 }
 
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.about-info em {
+  font-weight: bolder;
+  color: rgb(61, 125, 147);
+  color: rgb(68, 164, 196);
+
+  font-family: 'Poiret One';
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
-/* .navbar {
-  border-bottom: 1px solid whitesmoke;  */
-  /* display: flex;
-  justify-content: space-between; */
-/* } */
-
-/* .nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: 5px 25px;
-}
-
-.logo h1 {
-  font-family: 'Rampart One';
-  color: black;
-  font-size: 2rem;
-  text-transform: uppercase;
-}
-
-ul {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;
-}
-
-li {
-  text-decoration: none;
-  list-style: none;
-  font-size: 1.2em;
-}
-
-a {
-  text-decoration: none;
-  font-family: 'Sono', sans-serif;
-  color: black;
-  padding-right: 20px;
-}
-
-a:hover {
-  color: whitesmoke;
-} */
-
-/*  was main tag! */
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* height: 90vh; */
-  background-color: aliceblue;
-}
-
-video {
-  width: 50%;
-}
-
-.mission {
-  background-color: aliceblue;
-}
-
-.mission h1, h2{
- margin-right: 3rem;
- text-align: center;
-}
-
-
-/* .about {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-}
-
-.about-info h1, p{
-  color: black;
-  max-width: 80vw;
-  /* background-color: aliceblue; */
-  /* text-align: center; */
-/* }  */
