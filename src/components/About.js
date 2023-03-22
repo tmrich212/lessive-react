@@ -1,12 +1,17 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import { useRef } from 'react';
 
 const About = () => {
+
+
     return ( 
         <section className="about" aria-label='about section'>
             <div className="about-info">
                 <h1>What is Lessive?</h1>
                
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat amet reiciendis, soluta nemo neque quam pariatur asperiores fugit repellendus illum minus cupiditate sapiente officiis mollitia reprehenderit eligendi labore sed maiores.</p>
+                <p>Lessive is essentially the solution to those with a busy schedule that find their laundry piling up alone with all the other things life throws at us. Or it can just be for those who <span>hate</span> the process of doing laundry. We also understand that laundry can be something that can be made more accessible to those who could be going through a hard time right now. Let us help you with that. Lessive is a laundry delivery service. You call for a delivery and we will take it to to the nearest partnering laundromat or dry cleaners for you. It's as simple as that.</p>
       
             </div>
         </section>

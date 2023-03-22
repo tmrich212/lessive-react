@@ -16,7 +16,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   position: relative;
   transition: 0.5s;
@@ -24,7 +24,7 @@
 
 .bgvideo {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   position: absolute;
   top: 0;
   z-index: -1;
@@ -50,9 +50,10 @@
   position: absolute;
   top: 0;
   left: 0;
-  display: flex;
+  padding-top: 0;
+  /* display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
   z-index: 1;
 }
 
@@ -81,40 +82,46 @@
 
 .home {
   width: 100%;
-  height: 60%;
+  height: 100%;
   display: flex;
   z-index: 2;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center; 
-  font-family: 'Sono';
-  text-align: right;
-  margin-right: 35px;
+  font-family: 'Prompt';
+  margin-right: 8rem;
 }
 
 .home h1 {
   font-size: 3rem;
-  justify-self: flex-end;
+  /* justify-self: flex-end;
+  align-items: baseline; */
   text-align: right;
   text-transform: uppercase;
-  position: relative;
+  /* position: relative; */
 }
 
 .home p {
-  justify-self: baseline;
+  /* justify-self: baseline; */
   font-size: 2.5rem;
   color: white;
   text-align: right;
 }
 
 .arrow {
-  height: 60px;
+  padding-bottom: 15px;
+}
+
+button {
+  background: none;
+  border: none;
 }
 
 /* ********** About Styles ************ */
 .about {
   height: 100vh;
   width: 100%;
+  padding-inline: 1rem;
   background-color: rgb(197, 201, 224);
   background-color: rgb(197, 211, 224);
   display: flex;
@@ -123,8 +130,8 @@
 }
 
 .about-info {
-  height: 60%;
-  width: 70%;
+  min-height: 60%;
+  width: 90%;
   background-color: whitesmoke;
   border-radius: 20px;
   display: flex;
@@ -133,13 +140,21 @@
   align-items: center;
   justify-content: center;
   font-family: 'Sono';
+  text-align: center;
+  padding: 1rem;
 }
 
 .about-info h1, p {
   color: black;
-  width: 70%;
-  padding: 10px;
-  font-size: 1.3rem;
+  /* width: 70%; */
+  padding: 20px;
+  /* font-size: 2.3vw; */
+  justify-items: stretch;
+}
+
+.about-info span {
+  color: black;
+  font-style: italic;
 }
 
 /* body {
