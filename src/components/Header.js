@@ -15,13 +15,14 @@ const Header = () => {
     return (
 
             <div className="header" style={styles}>
-                <div className="misson" style={{ 
+                <div className="misson" 
+                style={{ 
                     background: 'rgba(0,0,0,0.5)',
                     borderRadius: 8,
                     padding: 20,
                     }}>
                     <h2 style={{ fontSize: 50}}>We're Like Uber</h2>
-                    <p style={{ fontSize: '3rem', color: 'white'}}>but for laundry</p>
+                    <p>but for laundry</p>
                 </div>
             </div>
         // </div>

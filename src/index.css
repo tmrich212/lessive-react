@@ -12,7 +12,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
   position: relative;
   transition: 0.5s;
@@ -20,17 +20,19 @@
 
 .bgvideo {
   width: 100vw;
+  height: 100%;
   min-height: 100vh;
   position: absolute;
   top: 0;
   z-index: -1;
   object-fit: cover;
   background-color: black;
+  overflow: hidden;
 }
 
 .bg-overlay {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   background-color: rgba(0, 0, 0, 0.2);
   position: absolute;
   top: 0;
@@ -40,9 +42,9 @@
 
 /* *************** Navbar styles *************** */
 .navbar {
-  width: 100%;
+  width: 90%;
   height: 4rem;
-  border-bottom: solid white 2px;
+  border-bottom: solid rgb(208, 208, 208) 2px;
   position: absolute;
   top: 0;
   left: 0;
@@ -51,11 +53,13 @@
 }
 
 .logo h1 {
-  padding-left: 30px;
+  /* padding-left: 30px; */
   text-transform: uppercase;
   font-family: 'Poiret One', sans-serif;
+  font-weight: bolder;
   letter-spacing: 2px;
-  text-decoration: wavy;
+  /* text-decoration: wavy; */
+  margin: 0 auto;
 }
 
 .menu a {
