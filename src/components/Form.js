@@ -1,9 +1,12 @@
 import React from "react";
 
+//styles
+import './Form.css'
+
 const Form = () => {
     return ( 
-        <Form>
-            
+        <Form className='form'>
+            hi
         </Form>
      );
 }

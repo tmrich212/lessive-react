@@ -1,7 +1,6 @@
 import React from 'react';
 import video from '../videos/laundryVid.mp4';
 import { BiChevronDown } from "react-icons/bi";
-import { useRef } from 'react';
 
 //styles 
 import './LandingPage.css'
@@ -9,11 +8,6 @@ import './LandingPage.css'
 
 const LandingPage = () => {
 
-    const ref = useRef(null);
-
-    const handleClick = () => {
-        ref.current.scrollIntoView({ behavior: 'smooth'});
-    }
 
     return ( 
         <div className="landingpage" aria-label='homepage'>
