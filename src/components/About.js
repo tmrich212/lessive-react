@@ -3,7 +3,6 @@ import React from 'react';
 
 const About = () => {
 
-
     return ( 
         <section className="about" aria-label='about section'>
             <div className="about-info">
