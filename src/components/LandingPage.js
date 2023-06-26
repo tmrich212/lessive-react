@@ -19,7 +19,11 @@ const LandingPage = () => {
                 <div className="logo" aria-label='lessive logo text'>
                 <h1>Lessive</h1>
                 </div>
-                <div></div>
+                <ul className='nav-links'>
+                    <li><a href="">Our Story</a></li>
+                    <li><a href="">What We Do</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
             </nav>
 
         <div className="home">

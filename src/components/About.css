@@ -67,3 +67,15 @@
     font-family: 'Poiret One';
   }
   
+  @media screen and (min-width: 280px){
+    .about p {
+      line-height: normal;
+      font-size: medium;
+      padding-top: 10px;
+    }
+
+    .about-info {
+      padding: .5rem;
+      margin: 20px 10px;
+    }
+  }
