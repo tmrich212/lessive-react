@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&family=Montserrat:wght@200;400&family=Poiret+One&family=Ysabeau+SC:wght@100&display=swap');
+
 .about {
     background-image: linear-gradient(to top, #0018a8, #0550c2, #457ed2, #82aada, #c5d3e0);
-    background-image: linear-gradient(to right top, #003c74, #3b5f8f, #6785aa, #94abc5, #c5d3e0);;
+    background-image: linear-gradient(to right top, #003c74, #3b5f8f, #6785aa, #94abc5, #c5d3e0);
+    background-image: linear-gradient(to right top, #00c0d6, #5acce1, #85d8eb, #a8e4f5, #c8f0fd);
     min-height: 100vh;
     width: 100%;
     padding-inline: 1rem;
@@ -32,9 +35,12 @@
     color: black;
     /* width: 70%; */
     padding: 20px;
+    z-index: 90;
     /* font-family: 'Poiret One'; */
     /* font-size: 2.3vw; */
     justify-items: stretch;
+    font-family: 'Poiret One', sans-serif;
+    font-family: 'Ysabeau SC', sans-serif;
   }
   
   .about-info h1 {
@@ -50,7 +56,6 @@
   .about-info span {
     color: rgb(61, 125, 147);
     color: rgb(68, 164, 196);
-  
     font-style: italic;
   }
   

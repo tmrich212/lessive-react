@@ -5,9 +5,13 @@ import './Form.css'
 
 const Form = () => {
     return ( 
-        <Form className='form'>
+        <form className='form'>
+            <div className="form-overlay">
             hi
-        </Form>
+            hello world
+            testing testing
+            </div>
+        </form>
      );
 }
  

@@ -1,5 +1,4 @@
 import React from 'react';
-// import { useRef } from 'react';
 
 //styles 
 import './About.css';
