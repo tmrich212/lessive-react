@@ -5,7 +5,7 @@ import './Form.css'
 
 const Form = () => {
     return ( 
-        <form className='form'>
+        <form className='form' id="form-section">
             <div className="form-overlay">
             hi
             hello world

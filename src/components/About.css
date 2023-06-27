@@ -16,9 +16,9 @@
 
 .about-info {
     min-height: 60%;
-    width: 90%;
+    width: 40%;
     background-color: whitesmoke;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     margin: 0 auto;
     flex-direction: column;
@@ -29,6 +29,7 @@
     line-height: 2rem;
     text-align: center;
     padding: 1rem;
+    /* z-index: 1; */
   }
   
   .about-info h1, p {
@@ -36,13 +37,16 @@
     /* width: 70%; */
     padding: 20px;
     z-index: 90;
-    /* font-family: 'Poiret One'; */
-    /* font-size: 2.3vw; */
     justify-items: stretch;
     font-family: 'Poiret One', sans-serif;
     font-family: 'Ysabeau SC', sans-serif;
   }
   
+  .about p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+  }
+
   .about-info h1 {
     font-weight: 700;
     color: rgb(68, 164, 196);
@@ -50,7 +54,8 @@
   }
   
   .about-info p {
-    font-size: 2.3vw;
+    font-size: 1.7vw;
+
   }
   
   .about-info span {
@@ -63,11 +68,10 @@
     font-weight: bolder;
     color: rgb(61, 125, 147);
     color: rgb(68, 164, 196);
-  
     font-family: 'Poiret One';
   }
   
-  @media screen and (min-width: 280px){
+  @media screen and (min-width: 280px) and (max-width: 450px){
     .about p {
       line-height: normal;
       font-size: medium;
@@ -78,4 +82,13 @@
       padding: .5rem;
       margin: 20px 10px;
     }
+  }
+
+  .ceo-section {
+    background: none;
+    width: 40%;
+  }
+
+  .ceo-section p{
+    color: whitesmoke;
   }

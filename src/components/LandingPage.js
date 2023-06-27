@@ -20,9 +20,9 @@ const LandingPage = () => {
                 <h1>Lessive</h1>
                 </div>
                 <ul className='nav-links'>
-                    <li><a href="">Our Story</a></li>
-                    <li><a href="">What We Do</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a href="#about-section">Our Story</a></li>
+                    <li><a href="#about-section">What We Do</a></li>
+                    <li><a href="#form-section">Contact Us</a></li>
                 </ul>
             </nav>
 
