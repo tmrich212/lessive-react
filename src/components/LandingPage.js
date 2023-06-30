@@ -32,7 +32,7 @@ const LandingPage = () => {
         </div>
    
         <div className="arrow">
-            <button><a href='.about-info'><BiChevronDown size={50} href=".about-info"/></a></button>
+            <button><a href='#about-section'  className='scroll-btn'><BiChevronDown size={50}/></a></button>
         </div>
        
         </div>

@@ -8,7 +8,7 @@ const About = () => {
     return ( 
         <section className="about" id='about-section' aria-label='about section'>
             <div className="ceo-section about-info">
-                <img src="" alt="" />
+                <img src={require("../christian-collage.png")} alt="Christian smiling in a blue tuxedo" height='350px' width='auto'/>
                 <h1>Meet, <br/> Christian Pagnia</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore ducimus incidunt blanditiis necessitatibus. Eius sint blanditiis, quod sequi autem reiciendis sit. Labore, magni? Libero aut deserunt maiores porro, ipsam dolor!</p>
             </div>

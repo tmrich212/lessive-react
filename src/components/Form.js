@@ -5,6 +5,7 @@ import './Form.css'
 
 const Form = () => {
     return ( 
+        <>
         <form className='form' id="form-section">
             <div className="form-overlay">
             hi
@@ -12,6 +13,7 @@ const Form = () => {
             testing testing
             </div>
         </form>
+        </>
      );
 }
  
