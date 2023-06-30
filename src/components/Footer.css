@@ -5,12 +5,11 @@
     width: 100%;
     background-color: rgb(43, 66, 88);
     background-color: rgb(88, 112, 135);
-    background-color: #013667;;
+    background-color: #013667;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-start;
-    color: whitesmoke;
+    align-items: stretch;
     margin: 0 auto;
     padding: 50px;
     font-family: 'Gill Sans', sans-serif ;
@@ -28,8 +27,9 @@
 .footer-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
-    padding-top: 2rem;
+    padding: 2rem;
 }
 
 .footer-section img {
@@ -39,10 +39,11 @@
 .footer-section h2 {
     font-family: 'Ysabeau SC', sans-serif;
     font-size: larger;
+    font-weight: 700;
 }
 
-.footer-section a {
-    color: rgb(223, 223, 223);
+.footer-section a, .footer-section h2 {
+    color: rgb(161, 160, 160);
 }
 
 

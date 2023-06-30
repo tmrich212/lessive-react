@@ -2,26 +2,22 @@
 
 .about {
     background-image: linear-gradient(to top, #0018a8, #0550c2, #457ed2, #82aada, #c5d3e0);
-    background-image: linear-gradient(to right top, #003c74, #3b5f8f, #6785aa, #94abc5, #c5d3e0);
-    background-image: linear-gradient(to right top, #00c0d6, #5acce1, #85d8eb, #a8e4f5, #c8f0fd);
+    background-image: linear-gradient(to right top, #003c74, #3368af, #94b8e4, #acc6f0, #dcecfa);
+    background-image: linear-gradient(to right top, #003c74, #3368af, #94b8e4, #90cbde, #c8f0fd);
+    /* background-image: linear-gradient(to right top, #00c0d6, #5acce1, #85d8eb, #a8e4f5, #c8f0fd); */
     min-height: 100vh;
     width: 100%;
-    /* padding-inline: 1rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 30px;
+    padding: 80px 30px;
     scroll-behavior: smooth;
     font-family: 'Ysabeau SC', sans-serif;
 }
 
 
 .about-info {
-    /* min-height: 60%; */
-    /* width: 40%; */
-    /* background-color: whitesmoke; */
-    border-radius: 10px;
     display: flex;
     margin: 0 auto;
     flex-direction: column;
@@ -31,6 +27,7 @@
     font-weight: 400;
     line-height: 2rem;
     color: whitesmoke;
+
     background-color: #013667;
   }
   
@@ -44,6 +41,7 @@
   .about h1 {
     color: #013667;
     font-weight: 700;
+    font-size: 2.5rem;
   }
 
   .about p {
@@ -99,7 +97,7 @@
   }
 
   .ceo-section img {
-    width: 40%;
+    width: 45%;
     height: auto;
   }
 
@@ -124,6 +122,6 @@
   }
 
   .ceo-section p {
-    font-size: medium;
+    font-size: large;
   }
 }

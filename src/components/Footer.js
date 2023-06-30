@@ -5,8 +5,8 @@ const Footer = () => {
     return ( 
        <div className='footer'>
         <div className="footer-section">
-            <img src={require('../Lessive Logo.png')} alt="lessive-logo" height='70px' width='70px'/>
-            <h2>Lessive LLC</h2>
+            <img src={require('../Lessive Logo.png')} alt="lessive-logo" height='80px' width='80px'/>
+            <h2>&copy;Lessive LLC</h2>
         </div>
         <div className="footer-section">
             <h2>Our Links</h2>

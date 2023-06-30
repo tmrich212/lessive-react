@@ -11,7 +11,7 @@ const About = () => {
             <div className="ceo-section about-info">
                 <img src={require("../christian-collage.png")} alt="Christian smiling" height='350px' width='auto'/>
                 
-                <p><h1>Meet, <br/> Christian Pagnia</h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore ducimus incidunt blanditiis necessitatibus. Eius sint blanditiis, quod sequi autem reiciendis sit. Labore, magni? Libero aut deserunt maiores porro, ipsam dolor! <br/>
+                <p><h1>Meet, <br/> Christian Pagnia</h1>Christian is founder and CEO of Lessive. He is on a mission to make laundry easier for everyone. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore ducimus incidunt blanditiis necessitatibus. Eius sint blanditiis, quod sequi autem reiciendis sit. Labore, magni? Libero aut deserunt maiores porro, ipsam dolor! <br/>
 
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque facilis, ab, omnis molestias ullam non fugiat possimus praesentium dolorem accusamus nesciunt nobis magni corporis. Voluptates fuga ipsum sed atque?</p>
             </div>
