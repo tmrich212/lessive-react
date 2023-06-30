@@ -21,7 +21,7 @@ const LandingPage = () => {
                 </div>
                 <ul className='nav-links'>
                     <li><a href="#about-section">Our Story</a></li>
-                    <li><a href="#about-section">What We Do</a></li>
+                    <li><a href="#about-lessive">What We Do</a></li>
                     <li><a href="#form-section">Contact Us</a></li>
                 </ul>
             </nav>
