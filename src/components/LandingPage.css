@@ -49,10 +49,10 @@
 ul {
   display: flex;
   justify-content: space-around;
-  align-items: flex-end;
+  align-items: flex-start;
   list-style: none;
   text-decoration: none;
-  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .nav-link li {

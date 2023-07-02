@@ -12,7 +12,7 @@ const Footer = () => {
             <h2>Our Links</h2>
             <a href="#about-section">Meet the Founder</a>
             <a href="#about-section">About Us</a>
-            <a href="#form-section">Get in Contact</a>
+            <a href="#pricing-section">Pricing & Services</a>
         </div>
         <div className="footer-section">
             <h2>More from Lessive</h2>
