@@ -128,7 +128,6 @@ button {
   min-height: 60%;
   width: 90%;
   background-color: whitesmoke;
-  border-radius: 20px;
   display: flex;
   margin: 0 auto;
   flex-direction: column;
