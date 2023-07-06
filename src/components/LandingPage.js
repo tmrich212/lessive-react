@@ -1,6 +1,8 @@
 import React from 'react';
 import video from '../videos/laundryVid.mp4';
 import { BiChevronDown } from "react-icons/bi";
+import 'bootstrap/dist/css/bootstrap.css'
+// import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
 
 //styles 
 import './LandingPage.css'
@@ -14,6 +16,23 @@ const LandingPage = () => {
             <video className='bgvideo' src={video} alt='video without sound of a clothesline of sheets blowing in the wind with the ocean in the background'
              muted autoPlay loop />
 
+            {/* <Navbar bg="none" variant="dark"
+                sticky="top" expand="sm" collapseOnSelect>
+                <Navbar.Brand>
+                <h1>Lessive</h1>
+                </Navbar.Brand>
+
+                <Navbar.Toggle className="coloring" />
+                <Navbar.Collapse>
+                <Nav id='nav'>
+                    <Nav.Link href="#blog">Our Story</Nav.Link>
+                    <Nav.Link href="#about-us">Pricing & Services</Nav.Link>
+                    <Nav.Link href="#contact-us">Start a Load</Nav.Link>
+                </Nav>
+                </Navbar.Collapse>
+
+            </Navbar> */}
+
 
             <nav className="navbar">
                 <div className="logo" aria-label='lessive logo text'>
@@ -22,7 +41,7 @@ const LandingPage = () => {
                 <ul className='nav-links'>
                     <li><a href="#about-section">Our Story</a></li>
                     <li><a href="#about-lessive">Pricing & Services</a></li>
-                    <li><a href="#pricing-section">Start Your Load</a></li>
+                    <li><a href="#pricing-section">Start a Load</a></li>
                 </ul>
             </nav>
 

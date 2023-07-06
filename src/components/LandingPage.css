@@ -2,11 +2,13 @@
 
 .logo h1 {
   font-family: 'Ysabeau SC', sans-serif;
+  /* font-weight: 700; */
 }
 
 .landingpage {
   background-color: rgb(0, 0, 0, 0.1);
 }
+
 
 .home {
     width: 100%;
@@ -56,12 +58,14 @@ ul {
   align-items: flex-start;
   list-style: none;
   text-decoration: none;
-  margin-bottom: 30px;
+  margin: 0;
+  /* margin-bottom: 30px; */
 }
 
 .nav-link li {
   text-decoration: none;
   list-style: none;
+
 }
 
 li a {

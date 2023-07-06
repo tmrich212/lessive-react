@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&family=Montserrat:wght@200;400&family=Poiret+One&family=Ysabeau+SC:wght@100&display=swap');
 
 .about {
-    /* background-image: linear-gradient(to top, #0018a8, #0550c2, #457ed2, #82aada, #c5d3e0);
-    background-image: linear-gradient(to right top, #003c74, #3368af, #94b8e4, #acc6f0, #dcecfa);
-    background-image: linear-gradient(to right top, #003c74, #3368af, #94b8e4, #90cbde, #c8f0fd); */
-    /* background-image: linear-gradient(to right top, #00c0d6, #5acce1, #85d8eb, #a8e4f5, #c8f0fd); */
     min-height: 100vh;
     background-color: rgb(234, 232, 232);
     width: 100%;
@@ -21,6 +17,7 @@
 .about-info {
     display: flex;
     margin: 0 auto;
+    padding: 20px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -51,6 +48,7 @@
 
   .about-info h1 {
     font-weight: 700;
+    font-size: xx-large;
     color: rgb(68, 164, 196);
     color: whitesmoke;
   }
@@ -60,8 +58,10 @@
   }
   
   .about-info span, .about-info em  {
-    color: rgb(61, 125, 147);
-    color: rgb(68, 164, 196);
+    color: rgb(0, 98, 131);
+    color: rgb(255, 255, 255);
+    color: white;
+    text-decoration: underline;
     font-family: 'Ysabeau SC', sans-serif;
     font-size: larger;
   }
@@ -94,6 +94,7 @@
     justify-content: space-between;
     color: #013667;
     background: none;
+    margin-bottom: 30px;
   }
 
   .ceo-section img {

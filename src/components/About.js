@@ -1,12 +1,18 @@
 import React from 'react';
+import { useSpring, animated } from '@react-spring/web'
 
 //styles 
 import './About.css';
 
 const About = () => {
 
+    const springs = useSpring({
+        from: { x: -20, delay: 0 },
+        to: { x: 0, delay: 50 },
+    })
+
     return ( 
-        <section className="about" id='about-section' aria-label='about section'>
+        <animated.div style={{...springs}} className="about" id='about-section' aria-label='about section'>
             <h1>Who we are and What we're about</h1>
             <div className="ceo-section about-info">
                 <img src={require("../christian-collage.png")} alt="Christian smiling" height='350px' width='auto'/>
@@ -21,7 +27,7 @@ const About = () => {
                 <p>Lessive is essentially the solution to those with a busy schedule that find their laundry piling up along with all the other things life throws at them. Or it can just be for those who <span>hate</span> the process of doing laundry. We also understand that laundry can be something that can be made more accessible to those who could be going through a hard time right now. Let us help you with that. <em>Lessive</em> is a laundry delivery service. You call for a delivery and we will take it to to the nearest partnering laundromat or dry cleaners for you. It's as simple as that.</p>
       
             </div>
-        </section>
+        </animated.div>
      );
 }
  
