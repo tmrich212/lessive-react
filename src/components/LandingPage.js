@@ -6,17 +6,17 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 //styles 
 import './LandingPage.css'
+import { Link } from 'react-router-dom';
 
 
 const LandingPage = () => {
-
 
     return ( 
         <div className="landingpage" aria-label='homepage'>
             <video className='bgvideo' src={video} alt='video without sound of a clothesline of sheets blowing in the wind with the ocean in the background'
              muted autoPlay loop />
 
-            {/* <Navbar bg="none" variant="dark"
+              {/* <Navbar bg="none" variant="dark"
                 sticky="top" expand="sm" collapseOnSelect>
                 <Navbar.Brand>
                 <h1>Lessive</h1>
@@ -33,7 +33,6 @@ const LandingPage = () => {
 
             </Navbar> */}
 
-
             <nav className="navbar">
                 <div className="logo" aria-label='lessive logo text'>
                 <h1>Lessive</h1>
@@ -41,7 +40,7 @@ const LandingPage = () => {
                 <ul className='nav-links'>
                     <li><a href="#about-section">Our Story</a></li>
                     <li><a href="#about-lessive">Pricing & Services</a></li>
-                    <li><a href="#pricing-section">Start a Load</a></li>
+                    <li><Link to="/form">Start a Load</Link></li>
                 </ul>
             </nav>
 

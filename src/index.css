@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Sono:wght@300;400&display=swap');
 
+#product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+ 
 * {
   margin: 0;
   box-sizing: border-box;
   color: white;
   scroll-behavior: smooth;
+  overscroll-behavior: none;
 }
 
 .landingpage {
@@ -53,14 +61,14 @@
 }
 
 .logo h1 {
-  /* padding-left: 30px; */
-  /* text-transform: uppercase; */
-  font-family: 'Poiret One', sans-serif;
+  padding-left: 30px;
+  text-transform: uppercase;
+  font-family: 'Poiret One', sans-serif; 
   font-weight: bolder;
   letter-spacing: 2px;
-  /* text-decoration: wavy; */
+  text-decoration: wavy;
   margin: 0 auto;
-}
+ }
 
 .menu a {
   color: white;
@@ -74,10 +82,11 @@
 }
 
 .menu a:hover {
-  color: rgb(221, 188, 145);
+  color: rgb(221, 188, 145); 
+  /* font-family: 'Prompt';  */
 }
- /* font-family: 'Prompt'; */
-/* .home {
+  
+ .home {
   width: 100%;
   height: 100%;
   display: flex;
@@ -111,7 +120,7 @@
 button {
   background: none;
   border: none;
-} */
+}
 
 /* ********** About Styles ************ */
 /* .about {
@@ -123,7 +132,7 @@ button {
   align-items: center;
   padding: 10px;
 } */
-
+/* 
 .about-info {
   min-height: 60%;
   width: 90%;
@@ -141,19 +150,19 @@ button {
 }
 
 .about-info h1, p {
-  color: black;
+  color: black; */
   /* width: 70%; */
-  padding: 20px;
+  /* padding: 20px; */
   /* font-family: 'Poiret One'; */
   /* font-size: 2.3vw; */
-  justify-items: stretch;
-}
+  /* justify-items: stretch; */
+/* } */
 
-.about-info h1 {
+/* .about-info h1 {
   font-weight: 700;
-  color: rgb(68, 164, 196);
+  color: rgb(68, 164, 196); */
   /* font-family: 'Poiret '; */
-}
+/* }
 
 .about-info p {
   font-size: 2.3vw;
@@ -172,4 +181,4 @@ button {
   color: rgb(68, 164, 196);
 
   font-family: 'Poiret One';
-}
+}  */

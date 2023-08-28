@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom"
 //styles
 import './Pricing.css'
 
@@ -19,7 +19,9 @@ const Pricing = () => {
                     <p>We charge a $1.15/lb per load<br />Free pick-up and delivery!</p>                   
                 </div>
             </div>
-            <button className="start-btn">start a load</button>
+       
+            <button className="start-btn"><Link to='/form'>start a load</Link></button>
+
             </div>
         </div>
      );

@@ -58,10 +58,8 @@
   }
   
   .about-info span, .about-info em  {
-    color: rgb(0, 98, 131);
-    color: rgb(255, 255, 255);
-    color: white;
-    text-decoration: underline;
+    color: whitesmoke;
+    font-weight: 700;
     font-family: 'Ysabeau SC', sans-serif;
     font-size: larger;
   }
