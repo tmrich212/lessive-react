@@ -20,7 +20,7 @@ const Pricing = () => {
                 </div>
             </div>
        
-            <button className="start-btn"><Link to='/form'>start a load</Link></button>
+            <button className="start-btn"><Link to='/store'>start a load</Link></button>
 
             </div>
         </div>

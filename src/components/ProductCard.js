@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import {Card, Button} from 'react-bootstrap';
+import {Card, Button, Form, Row, Col} from 'react-bootstrap';
 import CartProvider, { CartContext } from '../CartContext';
 
 
@@ -10,19 +10,30 @@ function ProductCard(props){
     console.log(cart.items);
 
     return (
-        <CartProvider>
+  
         <Card className='m-5' style={{"fontFamily": "Ysabeau SC", "fontWeight": "bold", "width": "20rem", "fontSize": "2rem"}}>
             <Card.Img variant='top' src={product.image} height="250px" width="auto" />
             <Card.Body>
                 <Card.Title>{product.title}</Card.Title>
-                <Card.Text style={{'color': "black"}}>${product.price}</Card.Text>
-                <Button 
+                <Card.Text style={{'color': "black"}}>${product.price}/{product.service}</Card.Text>
+                { productQuantity > 0 ? 
+                    <>
+                        <Form as={Row}>
+                            <Form.Label column="true" sm="6" style={{ "color": "black", "fontSize": "1.5rem"}}>In Cart: {productQuantity}</Form.Label>
+                            <Col sm="6">
+                                <Button sm="6" className='mx-2' onClick={() => cart.addOneToCart(product.id)}>+</Button>
+                                <Button sm="6" className='mx-2' onClick={() => cart.removeOneFromCart(product.id)}>-</Button>
+                            </Col>
+                        </Form>
+                        <Button variant='danger' onClick={() => cart.deleteFromCart(product.id)}>Remove from cart</Button>
+                    </> :
+                    <Button 
                 style={{"background": "#013667", "outline": "none"}}
-                onClick={() => cart.addOneToCart(product.id)}>Add Service</Button>
+                onClick={() => cart.addOneToCart(product.id)}>Add Service</Button>}
             </Card.Body>
         </Card>
         
-        </CartProvider>
+       
     )
 }
 export default ProductCard;
