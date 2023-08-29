@@ -12,11 +12,11 @@ const Pricing = () => {
                 <div className="services-container">
                 <div className="container">
                     <h2>Laundry</h2>
-                    <p>We charge a $1.15/lb per load<br />Free pick-up and delivery!</p>                   
+                    <p>We charge a $10.00/lb per load<br />Free pick-up and delivery!</p>                   
                 </div>
                 <div className="container">
                     <h2>Dry Cleaning</h2>
-                    <p>We charge a $1.15/lb per load<br />Free pick-up and delivery!</p>                   
+                    <p>We charge a $3.00/per item<br />Free pick-up and delivery!</p>                   
                 </div>
             </div>
        

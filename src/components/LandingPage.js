@@ -40,7 +40,7 @@ const LandingPage = () => {
                 <ul className='nav-links'>
                     <li><a href="#about-section">Our Story</a></li>
                     <li><a href="#about-lessive">Pricing & Services</a></li>
-                    <li><Link to="/form">Start a Load</Link></li>
+                    <li><Link to="/store">Start a Load</Link></li>
                 </ul>
             </nav>
 

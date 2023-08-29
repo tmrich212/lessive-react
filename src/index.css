@@ -131,8 +131,8 @@ button {
   justify-content: center;
   align-items: center;
   padding: 10px;
-} */
-/* 
+}
+
 .about-info {
   min-height: 60%;
   width: 90%;
@@ -150,19 +150,19 @@ button {
 }
 
 .about-info h1, p {
-  color: black; */
-  /* width: 70%; */
-  /* padding: 20px; */
-  /* font-family: 'Poiret One'; */
-  /* font-size: 2.3vw; */
-  /* justify-items: stretch; */
-/* } */
+  color: black; 
+  width: 70%;
+  padding: 20px;
+  font-family: 'Poiret One';
+  font-size: 2.3vw;
+  justify-items: stretch;
+}
 
-/* .about-info h1 {
+.about-info h1 {
   font-weight: 700;
-  color: rgb(68, 164, 196); */
-  /* font-family: 'Poiret '; */
-/* }
+  color: rgb(68, 164, 196);
+  font-family: 'Poiret '; 
+ }
 
 .about-info p {
   font-size: 2.3vw;

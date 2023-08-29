@@ -10,7 +10,6 @@ function ProductCard(props){
     console.log(cart.items);
 
     return (
-  
         <Card className='m-5' style={{"fontFamily": "Ysabeau SC", "fontWeight": "bold", "width": "20rem", "fontSize": "2rem"}}>
             <Card.Img variant='top' src={product.image} height="250px" width="auto" />
             <Card.Body>

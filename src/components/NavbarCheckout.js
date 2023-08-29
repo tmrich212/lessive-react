@@ -14,12 +14,13 @@ export const NavCheckout = () => {
     const productsCount = cart.items.reduce((sum, product) => sum + product.quantity, 0);
 
     return (
-      <Container style={{"background": 'none'}} align="center" className='justify-content-center'>
-        <Navbar expand="sm" id="cart-page" style={{"background": "white"}} align="center">
+  
+       <Container style={{"background": 'none', "width": "90%"}} align="center" className='justify-content-center m-0 p-0'>
+        <Navbar expand="sm" id="cart-page" align="center">
           <Navbar.Brand href='/' style={{"fontFamily": "Ysabeau SC", "fontSize": "3rem"}}>Lessive</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className='justify-content-end'>
-            <Button onClick={handleShow}>Cart ({productsCount}) Items</Button>
+            <Button onClick={handleShow} style={{"background": "#013667", "outline": "none", "fontFamily": "Ysabeau SC"}}>Cart ({productsCount}) Items</Button>
           </Navbar.Collapse>
         </Navbar>
 
@@ -42,7 +43,7 @@ export const NavCheckout = () => {
                     }      
                 </Modal.Body>
         </Modal>
-      </Container>
+     </Container> 
     )
   }
   

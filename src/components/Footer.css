@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&family=Montserrat:wght@200;400&family=Poiret+One&family=Ysabeau+SC:wght@100&display=swap');
 
 .footer {
-    min-height: 40vh;
+    min-height: 35vh;
     width: 100%;
     background-color: rgb(43, 66, 88);
     background-color: rgb(88, 112, 135);
@@ -9,9 +9,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: stretch;
+    align-items: center;
     margin: 0 auto;
-    padding: 50px;
+    padding: 40px;
     font-family: 'Gill Sans', sans-serif ;
 }
 
@@ -27,13 +27,15 @@
 .footer-section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 0;
+    min-width: 30%;
 }
 
 .footer-section img {
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .footer-section h2 {
