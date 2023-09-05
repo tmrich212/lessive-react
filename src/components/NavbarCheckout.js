@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Button, Container, Navbar, Modal } from 'react-bootstrap';
 import { CartContext } from '../CartContext';
 import CartProduct from './CartProduct';
-
+import React from 'react';
  
 export const NavCheckout = () => {
     const cart = useContext(CartContext);
@@ -11,6 +11,23 @@ export const NavCheckout = () => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
+    const checkout = async () => {
+      await fetch('http://localhost:4000/checkout', {
+        method: "POST",
+        headers: {
+          //allows us to send json data to body
+          "Content-Type": 'application/json'
+        },
+        //passes items to Stripe
+        body: JSON.stringify({items: cart.items})
+      }).then((response) => {
+        return response.json();
+      }).then((response) => {
+        if(response.url){
+          window.location.assign(response.url) //forwarding user to stripe
+        }
+      })
+    }
     const productsCount = cart.items.reduce((sum, product) => sum + product.quantity, 0);
 
     return (
@@ -37,7 +54,7 @@ export const NavCheckout = () => {
                       ))}
                       <h1 style={{"color": "black"}}>Total: {cart.getTotalCost().toFixed(2)}</h1>
                         
-                      <Button variant='success' style={{"fontFamily": "Ysabeau SC"}}>Checkout</Button>
+                      <Button variant='success' onClick={checkout} style={{"fontFamily": "Ysabeau SC"}}>Checkout</Button>
                      </>  
                       : <h1 style={{"color": 'black'}}>There are no items in your cart!</h1>  
                     }      

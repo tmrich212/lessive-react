@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import ProductCard from '../components/ProductCard'
 import Footer from "../components/Footer";
 import './StorePage.css';
+import React from "react";
 
 const StorePage = () => {
   return (
