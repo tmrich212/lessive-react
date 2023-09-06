@@ -33,7 +33,7 @@ export const NavCheckout = () => {
     return (
   
        <Container style={{"background": 'none', "width": "90%"}} align="center" className='justify-content-center m-0 p-0'>
-        <Navbar expand="sm" id="cart-page" align="center">
+        <Navbar expand="sm" id="cart-page" align="center" style={{"width": "100%"}}>
           <Navbar.Brand href='/' style={{"fontFamily": "Ysabeau SC", "fontSize": "3rem"}}>Lessive</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className='justify-content-end'>

@@ -2,7 +2,7 @@ import React from 'react';
 import video from '../videos/laundryVid.mp4';
 import { BiChevronDown } from "react-icons/bi";
 import 'bootstrap/dist/css/bootstrap.css'
-// import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
+import { Container, Navbar } from 'react-bootstrap';
 
 //styles 
 import './LandingPage.css'
@@ -15,34 +15,21 @@ const LandingPage = () => {
         <div className="landingpage" aria-label='homepage'>
             <video className='bgvideo' src={video} alt='video without sound of a clothesline of sheets blowing in the wind with the ocean in the background'
              muted autoPlay loop />
-
-              {/* <Navbar bg="none" variant="dark"
-                sticky="top" expand="sm" collapseOnSelect>
-                <Navbar.Brand>
-                <h1>Lessive</h1>
-                </Navbar.Brand>
-
-                <Navbar.Toggle className="coloring" />
-                <Navbar.Collapse>
-                <Nav id='nav'>
-                    <Nav.Link href="#blog">Our Story</Nav.Link>
-                    <Nav.Link href="#about-us">Pricing & Services</Nav.Link>
-                    <Nav.Link href="#contact-us">Start a Load</Nav.Link>
-                </Nav>
-                </Navbar.Collapse>
-
-            </Navbar> */}
-
-            <nav className="navbar">
-                <div className="logo" aria-label='lessive logo text'>
-                <h1>Lessive</h1>
-                </div>
-                <ul className='nav-links'>
+            
+            <Container style={{"background": "none", "width": "100%"}} className='justify-content-end m-0 p-0'>
+                <Navbar expand='sm' align='center' style={{"fontFamily": "Ysabeau SC", "width": "100%", "textAlign": "center"}}>
+                    <Navbar.Brand href='/' style={{"fontSize": "3rem", "color": "white"}}>Lessive</Navbar.Brand>
+                    <Navbar.Toggle />
+                    <Navbar.Collapse className='justify-content-end'>
+                    <ul className='nav-links'>
                     <li><a href="#about-section">Our Story</a></li>
                     <li><a href="#about-lessive">Pricing & Services</a></li>
                     <li><Link to="/store">Start a Load</Link></li>
                 </ul>
-            </nav>
+                    </Navbar.Collapse>
+                </Navbar>
+            </Container>
+
 
         <div className="home">
             <h1>We're like Uber</h1>

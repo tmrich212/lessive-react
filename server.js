@@ -1,4 +1,3 @@
-// sk_test_51NkGTzIEa4vt5WF9yhhbh3LfRowuXSm9PwjVxA3QKICFrxGJh4zXo7LHLPFWnYfZY3A6H8xhZV9YtvmRFNDFl8Tx00tadJfVpR
 
 // laundry id: price_1Nmj3UIEa4vt5WF93wVKeToB
 //dry cleaning id: price_1NmjBgIEa4vt5WF9LGwdtDVk

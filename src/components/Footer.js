@@ -16,9 +16,9 @@ const Footer = () => {
         </div>
         <div className="footer-section">
             <h2>More from Lessive</h2>
-            <a href="/">Terms & Conditions</a>
-            <a href="/">FAQ's</a>
-            <a href="/"></a>
+            <a href="/" alt="link to IG">Terms & Conditions</a>
+            <a href="/" alt="link to Twitter">FAQ's</a>
+            
         </div>
        </div>
      );

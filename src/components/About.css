@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px 30px;
+    padding: 2rem;
     scroll-behavior: smooth;
     font-family: 'Ysabeau SC', sans-serif;
 }
@@ -17,7 +17,7 @@
 .about-info {
     display: flex;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -53,8 +53,10 @@
     color: whitesmoke;
   }
   
-  .about-info p {
+  .about-info p, .ceo-section p {
     font-size: 1.7vw;
+    max-width: 90%;
+    text-align: center;
   }
   
   .about-info span, .about-info em  {
@@ -93,6 +95,7 @@
     color: #013667;
     background: none;
     margin-bottom: 30px;
+    padding: 2rem;
   }
 
   .ceo-section img {
@@ -122,5 +125,7 @@
 
   .ceo-section p {
     font-size: large;
+    text-align: center;
+    width: 80%;
   }
 }
