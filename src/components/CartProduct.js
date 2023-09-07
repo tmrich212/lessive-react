@@ -3,6 +3,7 @@ import { CartContext } from "../CartContext";
 import { useContext } from "react";
 import { getProducts } from "../products";
 import React from "react";
+
 const CartProduct = (props) => {
     const cart = useContext(CartContext);
     const id = props.id;

@@ -16,6 +16,7 @@ app.use(express.json())
 
 //post request path to stripe
 app.post("/checkout", async (req, res) => {
+    console.log(req.body)
     //stripe wants price and quantity
     const items = req.body.items;
     let lineItems = []
@@ -34,6 +35,7 @@ app.post("/checkout", async (req, res) => {
         success_url: "http://localhost:3000/success",
         cancel_url: "http://localhost:3000/cancel"
     });
+
     //sends to frontend for user to checkout with stripe
     res.send(JSON.stringify({
         url: session.url
